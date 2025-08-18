@@ -80,7 +80,7 @@ This project uses **ChromaDB**, which requires **SQLite ≥ 3.35.0**. Most Linux
 
 1. **Article Retrieval**  
    - Users provide medical topics in the sidebar (comma-separated).  
-   - The app queries **PubMed (Entrez API)** to fetch article abstracts and metadata.  
+   - The app queries **PubMed** to fetch article abstracts and metadata.  
 
 2. **Processing & Storage**  
    - Articles are split into smaller chunks.  
