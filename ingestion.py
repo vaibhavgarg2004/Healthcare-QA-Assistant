@@ -1,3 +1,13 @@
+import sys
+
+# Patch the standard sqlite3 module with pysqlite3 to ensure compatibility with ChromaDB, which requires SQLite version >= 3.35.0 (often not available in default Python builds) for streamlit cloud.
+
+try:
+    import pysqlite3 # type: ignore
+    sys.modules["sqlite3"] = sys.modules["pysqlite3"]
+except ImportError:
+    pass
+
 from pubmed import PubMedRetriever
 import chromadb
 from chromadb.utils import embedding_functions
