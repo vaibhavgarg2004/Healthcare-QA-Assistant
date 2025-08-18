@@ -2,7 +2,7 @@ import streamlit as st
 from ingestion import ingest_data, chain, get_relevant_qa
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="🔬 Healthcare QA Assistant", layout="wide")
+st.set_page_config(page_title="Healthcare QA Assistant", page_icon="🔬", layout="wide")
 
 # ---- Custom CSS ----
 st.markdown("""
