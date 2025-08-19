@@ -9,10 +9,10 @@ You can try the tool live here: **[Healthcare QA Assistant](https://vaibhav-proj
 
 ---
 
-<!-- ## 🎥 Presentation
-Watch the full project presentation here: **[Real Estate Research Tool Presentation](https://vaibhav-projects.my.canva.site/real-estate-research-tool)**
+## 🎥 Presentation
+Watch the full project presentation here: **[Healthcare QA Assistant Presentation](https://vaibhav-project.my.canva.site/healthcare-qa-assistant-presentation)**
 
---- -->
+--- 
 
 ## 🛠 Features  
 - Clean and interactive Streamlit-based web UI. 
